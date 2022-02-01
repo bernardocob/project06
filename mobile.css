@@ -1,5 +1,6 @@
 #navbar {
     height: 180px;
+    position: relative;
 }
 
 #navbar-container {
@@ -17,9 +18,13 @@
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
 }
-#showcase-container{
+
+ 
+#showcase-container {
     padding: 40px;
 }
+
+
 #clients-container {
     grid-template-columns: repeat(2, 1fr);
 }
@@ -27,6 +32,7 @@
 .client {
     width: 50%;
 }
+
 
 #features-container {
     grid-template-columns: 1fr;
@@ -38,14 +44,13 @@
 
 #product-container {
     flex-direction: column;
-
 }
 
-.items{
+#items {
     width: 90%;
 }
 
-.item{
+.item {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -56,10 +61,10 @@
     text-align: center;
 }
 
+
 #gallery-container {
     grid-template-columns: 1fr;
 }
-
 
 .gallery-image {
     width: 100%;
